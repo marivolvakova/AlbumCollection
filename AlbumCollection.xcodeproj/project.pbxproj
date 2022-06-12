@@ -19,6 +19,7 @@
 		D6FC51C428565F59005B24F9 /* ExtensionAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC51BF28565F59005B24F9 /* ExtensionAlbumsViewController.swift */; };
 		D6FC51C528565F59005B24F9 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC51C028565F59005B24F9 /* AlbumsViewController.swift */; };
 		D6FC51C728565FDF005B24F9 /* FirstTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC51C628565FDF005B24F9 /* FirstTypeCell.swift */; };
+		D6FC51C928566034005B24F9 /* SecondTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC51C828566034005B24F9 /* SecondTypeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D6FC51BF28565F59005B24F9 /* ExtensionAlbumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionAlbumsViewController.swift; sourceTree = "<group>"; };
 		D6FC51C028565F59005B24F9 /* AlbumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		D6FC51C628565FDF005B24F9 /* FirstTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTypeCell.swift; sourceTree = "<group>"; };
+		D6FC51C828566034005B24F9 /* SecondTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTypeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				D6FC51B228565EAA005B24F9 /* Info.plist */,
 				D6FC51B828565F53005B24F9 /* SceneDelegate.swift */,
 				D6FC51C628565FDF005B24F9 /* FirstTypeCell.swift */,
+				D6FC51C828566034005B24F9 /* SecondTypeCell.swift */,
 			);
 			path = AlbumCollection;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				D6FC51C528565F59005B24F9 /* AlbumsViewController.swift in Sources */,
 				D6FC51A928565EAA005B24F9 /* ViewController.swift in Sources */,
 				D6FC51C428565F59005B24F9 /* ExtensionAlbumsViewController.swift in Sources */,
+				D6FC51C928566034005B24F9 /* SecondTypeCell.swift in Sources */,
 				D6FC51C328565F59005B24F9 /* MediaViewController.swift in Sources */,
 				D6FC51A528565EAA005B24F9 /* AppDelegate.swift in Sources */,
 				D6FC51C128565F59005B24F9 /* SearchViewController.swift in Sources */,
