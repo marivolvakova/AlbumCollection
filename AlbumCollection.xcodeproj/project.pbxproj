@@ -20,6 +20,7 @@
 		D6FC51C528565F59005B24F9 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC51C028565F59005B24F9 /* AlbumsViewController.swift */; };
 		D6FC51C728565FDF005B24F9 /* FirstTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC51C628565FDF005B24F9 /* FirstTypeCell.swift */; };
 		D6FC51C928566034005B24F9 /* SecondTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC51C828566034005B24F9 /* SecondTypeCell.swift */; };
+		D6FC51CB28566086005B24F9 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC51CA28566086005B24F9 /* SectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D6FC51C028565F59005B24F9 /* AlbumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		D6FC51C628565FDF005B24F9 /* FirstTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTypeCell.swift; sourceTree = "<group>"; };
 		D6FC51C828566034005B24F9 /* SecondTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTypeCell.swift; sourceTree = "<group>"; };
+		D6FC51CA28566086005B24F9 /* SectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		D6FC51A328565EAA005B24F9 /* AlbumCollection */ = {
 			isa = PBXGroup;
 			children = (
+				D6FC51CC2856608A005B24F9 /* CellTypes */,
 				D6FC51BA28565F59005B24F9 /* TabBar */,
 				D6FC51A428565EAA005B24F9 /* AppDelegate.swift */,
 				D6FC51A828565EAA005B24F9 /* ViewController.swift */,
@@ -78,8 +81,6 @@
 				D6FC51AF28565EAA005B24F9 /* LaunchScreen.storyboard */,
 				D6FC51B228565EAA005B24F9 /* Info.plist */,
 				D6FC51B828565F53005B24F9 /* SceneDelegate.swift */,
-				D6FC51C628565FDF005B24F9 /* FirstTypeCell.swift */,
-				D6FC51C828566034005B24F9 /* SecondTypeCell.swift */,
 			);
 			path = AlbumCollection;
 			sourceTree = "<group>";
@@ -102,6 +103,16 @@
 				D6FC51C028565F59005B24F9 /* AlbumsViewController.swift */,
 			);
 			path = AlbumsViewController;
+			sourceTree = "<group>";
+		};
+		D6FC51CC2856608A005B24F9 /* CellTypes */ = {
+			isa = PBXGroup;
+			children = (
+				D6FC51C628565FDF005B24F9 /* FirstTypeCell.swift */,
+				D6FC51C828566034005B24F9 /* SecondTypeCell.swift */,
+				D6FC51CA28566086005B24F9 /* SectionHeader.swift */,
+			);
+			path = CellTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				D6FC51A528565EAA005B24F9 /* AppDelegate.swift in Sources */,
 				D6FC51C128565F59005B24F9 /* SearchViewController.swift in Sources */,
 				D6FC51C228565F59005B24F9 /* ForYouViewController.swift in Sources */,
+				D6FC51CB28566086005B24F9 /* SectionHeader.swift in Sources */,
 				D6FC51C728565FDF005B24F9 /* FirstTypeCell.swift in Sources */,
 				D6FC51B928565F53005B24F9 /* SceneDelegate.swift in Sources */,
 			);
