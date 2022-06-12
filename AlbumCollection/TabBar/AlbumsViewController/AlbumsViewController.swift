@@ -54,12 +54,12 @@ class AlbumsViewController: UIViewController {
             switch sectionLayoutKind {
                 
             case .myAlbums:
-                let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1),
-                                                      heightDimension: .fractionalHeight(1))
+                let itemSize = NSCollectionLayoutSize(widthDimension: .absolute(160),
+                                                      heightDimension: .absolute(210))
                 let item = NSCollectionLayoutItem(layoutSize: itemSize)
                 item.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5)
-                let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.475),
-                                                       heightDimension: .fractionalWidth(1))
+                let groupSize = NSCollectionLayoutSize(widthDimension: .absolute(160),
+                                                       heightDimension: .absolute(210 * 2))
                 
                 let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitem: item, count: 2)
 
@@ -79,13 +79,13 @@ class AlbumsViewController: UIViewController {
                 return section
                 
             case .peopleAndPlaces:
-                let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1),
-                                                      heightDimension: .fractionalHeight(1))
+                let itemSize = NSCollectionLayoutSize(widthDimension: .absolute(160),
+                                                      heightDimension: .absolute(210))
                 let item = NSCollectionLayoutItem(layoutSize: itemSize)
                 item.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5)
 
-                let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.475),
-                                                       heightDimension: .fractionalWidth(0.575))
+                let groupSize = NSCollectionLayoutSize(widthDimension: .absolute(160),
+                                                       heightDimension: .absolute(210))
                 
                 let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitem: item, count: 1)
                 
